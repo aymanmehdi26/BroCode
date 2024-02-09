@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <title>techHarbor</title>
+    <!-- Include Font Awesome 4 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pics/logo1.jpeg.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="toggleMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="faculty.html.html">FACULTY CHAPTER</a></li>
+                    <li><a href="student.html.html">STUDENT CHAPTER</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="magazines.html">MAGAZINE</a></li>
+                    <li><a href="achievements.html.html">ACHIEVEMENTS</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                    <li><a href="Signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
+        </nav>
+
+        <h1>Our Magazine</h1>
+    </section>
+    <!---------Magazines---->
+    
+    <section class="magazine-view">
+        <!-- Add PDF viewer or embed code here -->
+        <iframe src="pics/magazine.pdf" width="100%" height="600px"></iframe>
+    </section>
+
+    <section class="editors">
+        <h2>    Editors  </h2>
+        <!-- Add editor images and details here -->
+        <div class="editor">
+            <img src="pics/tejaswini.jpeg.jpg">
+            <p>Tejaswini S</p>
+        </div>
+        <div class="editor">
+            <img src="pics/vijetha1.jpeg.jpg">
+            <p>Vijetha B C</p>
+        </div>
+        <!-- Add more editors as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Magazine Editor</p>
+    </footer>
+<!-------Call to action------>
+<section class="about-us">
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>We ignite tech passion! Join our vibrant community. Connect with us on Twitter, Instagram, Facebook, and LinkedIn.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/TechArcadeClub" target="_blank"><i class="fa fa-twitter" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.instagram.com/TechArcadeClub/" target="_blank"><i class="fa fa-instagram" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.facebook.com/TechArcadeClub/" target="_blank"><i class="fa fa-facebook" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.linkedin.com/company/tech-arcade-club/" target="_blank"><i class="fa fa-linkedin-square" onclick="toggleMenu()" ></i></a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function toggleMenu() {
+            navLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

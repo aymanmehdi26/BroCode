@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <title>techHarbor</title>
+    <!-- Include Font Awesome 4 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pics/logo1.jpeg.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="toggleMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="faculty.html.html">FACULTY CHAPTER</a></li>
+                    <li><a href="student.html.html">STUDENT CHAPTER</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="magazines.html">MAGAZINE</a></li>
+                    <li><a href="achievements.html.html">ACHIEVEMENTS</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                    <li><a href="Signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
+        </nav>
+
+        <h1>Faculty Chapter</h1>
+    </section>
+<!-------Faculty Chapter------>
+<section class="Faculty chapter">
+    <h1>Faculty Chapter Coordinators</h1>
+    <p>The tech arcade society is a professional society for overall development technical education system.
+        The Tech Arcade faculty chapter helpful to the teaching faculty to facilitate their overall development and academic enhancement through short term training programme and seminars.</p>
+    <div class="row">
+        <div class="faculty" onclick="toggleInfo(this)">
+            <a href="index.html"><img src="pics/veena1.jpeg.jpg"></a>
+            <h3>President</h3>
+            <P>Dr. Veena M.N.,
+                Dept of MCA
+            </P>
+            <p1>Dear students,
+
+                As the President of TechArcade Club, I extend a warm welcome to all aspiring minds. Join us in this exciting journey of exploration, innovation, and learning. The club is a platform to unleash your creativity and passion for technology. Let's collaborate and make a positive impact together.</p1>
+
+
+        </div>
+        <div class="faculty" onclick="toggleInfo(this)">
+            <a href="index.html"><img src="pics/princi1.jpeg.jpg"></a>
+            <h3>Rector</h3>
+            <P>Dr. H.M. Nanjundaswamy,
+                Principal
+            </P>
+            <p1>Dear students,
+
+                TechArcade Club is more than just a club; it's a community of tech enthusiasts. As your Rector, I encourage you to actively participate in club activities, broaden your horizons, and build connections. Let's create a dynamic learning environment where everyone can thrive.</p1>
+
+
+        </div>
+        <div class="faculty" onclick="toggleInfo(this)">
+            <a href="index.html"><img src="pics/nayakasir1.jpeg.jpg"></a>
+            <h3>Secretary/Treasurer</h3>
+            <P>Dr.Nayaka S.R.,
+                Dept of Mathematics
+            </P>
+            <p1>Hello students,
+
+                TechArcade is not just about coding; it's about building a community of like-minded individuals. As the Secretary/Treasurer, I invite you to be part of this vibrant community. Let's explore, learn, and grow together.</p1>
+
+        </div>
+        <div class="faculty" onclick="toggleInfo(this)">
+            <a href="index.html"><img src="pics/deepikamam.jpeg.jpg"></a>
+            <P>Smt. Deepika,
+                Dept of CS &Engg
+            </P>
+            <p1>Dear students,
+
+                TechArcade Club is your playground for experimenting with technology. Join us in discovering the exciting world of computer science and engineering. As a member of the faculty, I'm here to guide you on this thrilling journey.</p1>
+
+        </div>
+        <div class="faculty" onclick="toggleInfo(this)">
+            <a href="index.html"><img src="pics/thejassir.jpeg.jpg"></a>
+            <P>Dr. Thejas Urs G.,
+                Dept of Physics
+            </P>
+            <p1>Greetings students,
+
+                TechArcade is where physics meets technology. Join us to explore the fusion of these disciplines. Let's push boundaries, ask questions, and make discoveries. Your journey with TechArcade starts now!
+                
+                </p1>
+
+
+        </div>
+    </div>
+</section>
+
+<!-------Call to action------>
+<section class="about-us">
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>We ignite tech passion! Join our vibrant community. Connect with us on Twitter, Instagram, Facebook, and LinkedIn.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/TechArcadeClub" target="_blank"><i class="fa fa-twitter" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.instagram.com/TechArcadeClub/" target="_blank"><i class="fa fa-instagram" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.facebook.com/TechArcadeClub/" target="_blank"><i class="fa fa-facebook" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.linkedin.com/company/tech-arcade-club/" target="_blank"><i class="fa fa-linkedin-square" onclick="toggleMenu()" ></i></a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function toggleMenu() {
+            navLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

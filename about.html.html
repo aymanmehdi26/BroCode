@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <title>techHarbor</title>
+    <!-- Include Font Awesome 4 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pics/logo1.jpeg.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="toggleMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="faculty.html.html">FACULTY CHAPTER</a></li>
+                    <li><a href="student.html.html">STUDENT CHAPTER</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="magazines.html">MAGAZINE</a></li>
+                    <li><a href="achievements.html.html">ACHIEVEMENTS</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                    <li><a href="Signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+<!-------Call to action content------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Where Technology Meets Creativity</h1>
+            <p>
+                TechArcade Club is a thriving community at the forefront of technological exploration and innovation. Fueled by a passion for all things tech, we provide a dynamic platform for individuals to connect, collaborate, and learn. Our inclusive environment welcomes tech enthusiasts from diverse backgrounds, fostering a rich exchange of ideas and experiences.
+                
+                Dedicated to shaping the future of technology, TechArcade organizes engaging workshops, events, and projects, offering hands-on experiences that go beyond the conventional boundaries of learning. Whether you're a seasoned professional or a curious beginner, our club is the place to unleash your creativity and expand your skills.
+                
+                At TechArcade, we believe in the power of community and collaboration. Our members share a common goal of pushing technological boundaries and making a positive impact. Join us on this exciting journey as we explore, innovate, and redefine what's possible in the ever-evolving world of technology. Connect with like-minded individuals, stay updated on the latest trends, and be part of a vibrant community that thrives on the spirit of innovation. Welcome to TechArcade Club where technology comes to life!</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+        <div class="about-col">
+            <img src="pics/younf.jpeg"
+        </div>
+
+    </div>
+</section>
+
+    
+<!-------Call to action------>
+<section class="about-us">
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>We ignite tech passion! Join our vibrant community. Connect with us on Twitter, Instagram, Facebook, and LinkedIn.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/TechArcadeClub" target="_blank"><i class="fa fa-twitter" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.instagram.com/TechArcadeClub/" target="_blank"><i class="fa fa-instagram" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.facebook.com/TechArcadeClub/" target="_blank"><i class="fa fa-facebook" onclick="toggleMenu()" ></i></a>
+            <a href="https://www.linkedin.com/company/tech-arcade-club/" target="_blank"><i class="fa fa-linkedin-square" onclick="toggleMenu()" ></i></a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function toggleMenu() {
+            navLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
